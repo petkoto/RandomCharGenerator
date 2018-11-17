@@ -1,0 +1,9 @@
+Random Character Generator
+Version 0.1
+
+Sample Python script for generating characters from 3 options:
+1. English alphabet
+2. Cyrillic Macedonian alphabet
+3. Your given set of characters
+
+Runs in Python console.
