@@ -1,6 +1,6 @@
 import random
 import string
-import json
+# import json
 
 def main():
     options = ['English alphabet', 'Macedonian alphabet', 'Your list of characters', 'Exit']
