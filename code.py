@@ -11,7 +11,7 @@ def main():
     choice = get_choice(options)
     if choice != len(options):
         data = generate_data(choice)
-        replacement = get_replacement()
+        replacement = get_replacement_choice()
 
     fn_dict = {len(options): break_function}
     fn_dict.setdefault(choice, perform_picks)
@@ -74,7 +74,7 @@ def get_choice(opts: list):
     return choice
 
 
-def get_replacement():
+def get_replacement_choice():
     no_selection = True
 
     while no_selection:
